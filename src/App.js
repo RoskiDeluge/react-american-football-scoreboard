@@ -9,11 +9,11 @@ function App() {
   let [awayScore, setAwayScore] = useState(0);
 
   const touchDownHome = e => {
-    setHomeScore(homeScore + 6);
+    setHomeScore(homeScore + 7);
   }
 
   const touchDownAway = e => {
-    setAwayScore(awayScore + 6);
+    setAwayScore(awayScore + 7);
   }
 
   const fieldGoalHome = e => {
